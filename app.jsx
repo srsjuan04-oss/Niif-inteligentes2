@@ -182,10 +182,10 @@ function Hero({ progress, onCta }) {
   return (
     <header className="hero" id="top">
       <div className="hero-video-wrap" ref={wrapRef}>
-        <img className="poster" src="assets/hero-frame-1.jpg" alt="" />
+        <img className="poster" src="/hero-frame-1.jpg" alt="" />
         <video
           ref={videoRef}
-          src="assets/hero-loop.mp4"
+          src="/hero-loop.mp4"
           poster="assets/hero-frame-1.jpg"
           autoPlay
           muted
